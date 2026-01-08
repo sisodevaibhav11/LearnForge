@@ -1,0 +1,25 @@
+{
+  "name": "learnforge",
+  "version": "1.0.0",
+  "description": "LearnForge - Intelligent Document Companion & AI Study Assistant",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "node backend/test_all_endpoints.js"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "gemini-ai",
+    "rag",
+    "flashcards",
+    "study-assistant",
+    "quiz-generator"
+  ],
+  "author": "Vaibhav Dhanraj",
+  "license": "MIT"
+}
